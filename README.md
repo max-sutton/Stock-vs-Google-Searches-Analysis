@@ -22,6 +22,8 @@ price and linear regression.
 # Files
 #######################################################################################################
 
-.ipynb notebook containing all of the work and describing the project in better detail.
+- .ipynb notebook containing all of the work and describing the project in better detail.
+- .py file containting code that allows user input of a stock ticker and outputs regression model results
+   for respective stock ticker. Pulls 5 year data from date of when the program is run.
 
 
