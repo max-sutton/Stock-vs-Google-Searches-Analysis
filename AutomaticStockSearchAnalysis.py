@@ -62,12 +62,17 @@ dfstock['Return'] = dfstock['Adj Close'].pct_change()
 dfstock['Absolute_Pct_Change'] = dfstock['Return'].abs()
 dfstock = dfstock.dropna()
 
+# Building Absolute Percent Change x Search Interest Model
+
 modelSStock = sm.OLS(dfstock['Absolute_Pct_Change'], dfstock[stock])
 modelSStock = modelSStock.fit()
+
+# Building Volume x Search Interest Model
 
 modelVStock = sm.OLS(dfstock['Volume'], dfstock[stock])
 modelVStock = modelVStock.fit()
 
+# Functions for displaying regression information
 
 def Search_Interest_And_Stock_Volume_Res():
     print(stock + ' Search Interest and Stock Volume')
