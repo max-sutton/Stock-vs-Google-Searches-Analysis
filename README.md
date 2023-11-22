@@ -10,19 +10,19 @@ The code has the function of manipuating and analyzing the data to see if there 
 between search trends for a stock and the volume traded of the stock, as well as its absolute percent
 change in price.
 
-########################################################################################
+#######################################################################################
 
 # Result
-########################################################################################
+#######################################################################################
 
 Resulted in the linear regression charts for each stocks data and search interest data. Resulted in 
 linear regression equations for Volume and Search Interest, as well as absolute percent change in stock
 price and linear regression.
 
-#########################################################################################
+#######################################################################################
 
 # Files
-#########################################################################################
+#######################################################################################
 
 - .ipynb notebook containing all of the work and describing the project in better detail.
 - .py file containting code that allows user input of a stock ticker and outputs regression model results
